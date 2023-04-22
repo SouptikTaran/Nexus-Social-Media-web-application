@@ -1,0 +1,327 @@
+:root{
+    --font : 'Poppins', sans-serif;
+    --color : #714ef2;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: var(--font);
+    background-image: url("../images/background.png");
+    background-size: cover;
+}
+.logo-heading{
+    color: white;
+    font-size: 35px;
+    margin-left: 3.5vw;
+    margin-top: 5vh;
+    font-weight: bolder;
+}
+
+
+
+.main{
+    height: 63vh;
+    width: 23vw;
+    border-radius: 10px;
+    margin: auto;
+    /* margin: 7vh auto;  */
+    margin-bottom: 6vh;
+    color:#fff;
+    background-image: linear-gradient(45deg,rgb(36,29,134),rgb(46,47,137),rgb(36,29,134));
+    /* border: 1px solid rgba(255, 255, 255, 0.1); */
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.196);
+    
+}
+
+@media only screen and (min-width:768px){
+    .main{
+        padding-top:0.5vh;
+    }
+    .main-2{
+        width:23vw;
+        margin:auto;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .main{
+        height:60vh;
+        width:80vw;
+        padding-top:0.5vh;
+        margin-top:2vh;
+    }
+
+    .main-2{
+        width:80vw;
+        margin-bottom:5vh;
+        margin:auto auto 5vh auto;
+    }
+
+    .input-class{
+        width:80% !important;
+        margin:0 10%;
+    }
+
+    .label-name{
+        margin:0 10%;
+    }
+}
+
+.main .form-heading{
+    font-family: var(--font);
+    font-size: 2.5vh;
+    font-weight: 100;
+    text-align: center;
+    margin: 4vh;
+}
+
+.txt_field .label-name
+{
+    font-style: var(--font);
+    padding: 0 2.5vw;
+}
+
+@media only screen and (min-width:768px){
+    .input-class{
+        margin-left: 2.5vw;
+        margin-right: 2.5vw;
+    }
+}
+
+.txt_field input{
+    border-radius: 4px;
+    width: 16vw;
+    border-style: none;
+    padding: 1.5vh 0;
+    padding-right: 1vw;
+    margin-bottom: 3vh;
+    padding-left: 1vw;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.25);
+    outline: none;
+}
+
+@media only screen and (max-width:768px){
+    .Log-in{
+        width:80%;
+        margin:2vh 10%;
+    }
+}
+
+@media only screen and (min-width:768px){
+    .Log-in{
+        width:18vw;
+        margin: 2vh 2.5vw;
+    }
+}
+
+.centre .Log-in{
+    text-align: center;
+    /* width: 18vw; */
+    height: 5vh;
+    /* padding: 1.5vh 7vw; */
+    
+    background-color: var(--color);
+    border-style: none;
+    color: #fff;
+    font-size: 2vh;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 1000ms ease-in-out;
+}
+
+.centre .Log-in:hover{
+    background-color: #fff;
+    color: var(--color);
+}
+
+.centre .Log-in:active{
+    border-style: none;
+}
+
+.content{
+    /* margin: 10px auto; */
+    /* width: 18vw; */
+    color: #afa8a85f;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@media only screen and (max-width:768px){
+    /* .or{
+        background-size: 80% 1px !important;
+        width: 80%;
+    } */
+}
+
+@media only screen and (min-width:768px){
+    /* .or{
+        background-size: 40% 1px !important;
+    } */
+}
+
+.centre .or{
+    text-align: center;
+    font-size: 2vh;
+    /* background: */
+    /* color from srijan */
+        /* linear-gradient(#7471715f 0 0) left, 
+        linear-gradient(#afa8a85f 0 0) right;
+    background-repeat: no-repeat;    */
+}
+
+.text-divider-line{
+    width:30%;
+    margin:0 10%;
+    border:1px solid #7471715f;
+    height:0;
+}
+
+/* @media only screen and (max-width:992){
+    .google-icon{
+        margin-right:2vw;
+    }
+}
+
+@media only screen and (min-width:992){
+    .google-icon{
+        margin-right:1vw;
+    }
+} */
+
+.google img{
+    max-width: 2.5vh;
+    height: auto;
+    /* margin-left: 5.5vw; */
+    margin-right:1.5vw;
+}
+
+.google{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: var(--font);
+    font-size: 2vh;
+    width:100%;
+    justify-content: center;
+}
+
+.forgot{
+    text-align: center;
+    font-family: var(--font);
+    font-size: 1.5vh;
+    color: #afa8a8e2;
+    margin: 3vh 0;
+}
+
+
+.main-2{
+    height: 7vh;
+    border-radius: 10px;
+    padding: 1vh 0;
+    text-align: center;
+    align-items: center;
+    /* margin:auto; */
+    font-style: var(--font);
+    color:#fff;
+    background-image: linear-gradient(45deg,rgb(53,37,147) 0%, rgb(57,41,145) 15%,rgb(57,41,145) 85%, rgb(48,37,132) 100%);
+    /* border: 2px solid rgba(255, 255, 255, 0.1); */
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.196);
+}
+
+.box2 {
+    text-align: center;
+    margin: auto;
+    /* margin-bottom: 2vh; */
+    /* border: 2px solid black; */
+    /* margin-bottom: 2vh; */
+}
+.box2 .account span{
+    color: #faff00;
+    font-weight: 600;
+    padding-left: 0.5vw;
+    cursor: pointer;
+}
+
+.box2 .account span:hover{
+    color :red;
+    transition: all 100ms ease
+}
+
+/*-----------create_account.html-----------------*/
+
+
+.btn-set{
+    display: flex;
+    margin: 6vh 2vw;
+}
+.main .btn2{
+    background-color: #fff;
+    color: var(--color);
+    margin-right: 0.5vw;
+    margin-left: 0.5vw;
+    /* padding: 2vh 1vw; */
+    /* width: 15vw; */
+    text-align: center;
+    width: 15vw;
+    height: 5vh;
+    /* padding: 1.5vh 7vw; */
+    /* margin: 2vh 2.5vw; */
+    background-color: var(--color);
+    border-style: none;
+    color: #fff;
+    font-size: 2vh;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.btn-set .btn2:hover{
+    color : var(--color);
+    background-color: #fff;
+}
+
+.resend {
+    color:#FAFF00;
+    font-weight: 600;
+    font-size: 1.5vh;
+    margin-top: -4vh;
+    margin-left: 2.5vw;
+    cursor: pointer;
+}
+.btn3{
+    margin-top: 5vh;
+}
+.resend:hover{
+    color: #fff;
+}
+
+/*------------------create_account_date.html----------------------*/
+
+.centre .date p{
+    font-family: var(--font);
+    font-size: 2vh;
+    margin-top: 5vh;
+    /* margin-left: 2vw; */
+}
+.date-set{
+    margin: 2.5vw;
+}
+.centre .div1 , .div2 , .div3{
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 4px;
+    border-style: none;
+    width: 5.6vw;
+    height: 5vh;
+    margin-top: 2vh;
+    /* margin-left: 0.5vw; */
+    margin-right: auto;
+    color: #fff;
+    font-family: var(--font);
+    font-weight: 550;
+    margin-bottom: 2vh;
+}
