@@ -6,6 +6,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-repeat: no-repeat;
     font-family: var(--font);
     background-image: url("../images/background.png");
     background-size: cover;
@@ -21,7 +22,7 @@ body{
 
 
 .main{
-    height: 63vh;
+    height: 64vh;
     width: 23vw;
     border-radius: 10px;
     margin: auto;
@@ -73,7 +74,7 @@ body{
     font-size: 2.5vh;
     font-weight: 100;
     text-align: center;
-    margin: 4vh;
+    margin: 2vh;
 }
 
 .txt_field .label-name
@@ -122,18 +123,18 @@ body{
     height: 5vh;
     /* padding: 1.5vh 7vw; */
     
-    background-color: var(--color);
+    background: var(--color);
     border-style: none;
     color: #fff;
     font-size: 2vh;
     font-weight: 600;
     border-radius: 4px;
     cursor: pointer;
-    transition: all 1000ms ease-in-out;
+    /* transition-property: background,color; */
 }
 
 .centre .Log-in:hover{
-    background-color: #fff;
+    background: #fff;
     color: var(--color);
 }
 
@@ -194,7 +195,7 @@ body{
 
 .google img{
     max-width: 2.5vh;
-    height: auto;
+    /* height: auto; */
     /* margin-left: 5.5vw; */
     margin-right:1.5vw;
 }
@@ -214,7 +215,7 @@ body{
     font-family: var(--font);
     font-size: 1.5vh;
     color: #afa8a8e2;
-    margin: 3vh 0;
+    /* margin: 3vh 0; */
 }
 
 
@@ -325,3 +326,48 @@ body{
     font-weight: 550;
     margin-bottom: 2vh;
 }
+#next2{
+    visibility: hidden;
+    height: 0%;
+    display: none;
+
+}
+#next3{
+    visibility: hidden;
+    height: 0%;
+    display: none;
+}
+#next4{
+    visibility: hidden;
+    height: 0%;
+    display: none;
+}
+
+.progress-bar-container{
+    width: 19vw;
+    height: 0.5vh;
+    background-color: rgba(255, 255, 255, 0.25);
+    margin: auto;
+    margin-bottom: 3vh;
+    border-radius: 10px;
+}
+.progress-bar{
+    height: 0.5vh;
+    background-color: #714ef2;
+    text-align: left;
+    border-radius: 10px;
+}
+#progress1{
+    width: 0;
+}
+#progress2{
+    width: 30%;
+}
+#progress3{
+    width: 45%;
+}
+#progress4{
+    width: 65%;
+}
+
+
